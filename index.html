@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sérgio Henrique</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- <header>
+        <img class="logo" src="assets/logo.svg" alt="logo">
+        <nav>
+            <ul class="nav_links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="servicos.html">Serviços</a></li>
+                <li><a href="portfolio.html">Portfólio</a></li>
+                <li><a href="about.html">Sobre</a></li>
+
+            </ul>
+        </nav>
+        <a class="cta" href="#"><button>Contato</button></a>
+
+    </header> -->
+    <!-- <div class="Sérgio">
+        <p class="first">Sérgio Henrique<br>
+            <span>Desenvolvedor Full stack</span><br>
+            <span >Programador PHP</span><br>
+            <span class="animation">TEXTO ANIMADO AQUI</span>
+            <span class="">.</span>
+        </p>
+    </div> -->
+
+    <div class="navigation">
+        <ul>
+            <li class="list active">
+                <a href="#">
+                    <span class="icon">
+                        <ion-icon name="home-outline"></ion-icon>
+                    </span>
+                    <span class="text">Home</span>
+                </a>    
+            </li>
+            <li class="list">
+                <a href="#">
+                    <span class="icon">
+                        <ion-icon name="code-working-outline"></ion-icon>
+                    </span>
+                    <span class="text">Serviços</span>
+                </a>
+            </li>
+            <li class="list">
+                <a href="#">
+                    <span class="icon">
+                        <ion-icon name="albums-outline"></ion-icon>
+                    </span>
+                    <span class="text">Portfólio</span>
+                </a>
+            </li>
+            <li class="list">
+                <a href="#">
+                    <span class="icon">
+                        <ion-icon name="body-outline"></ion-icon>
+                    </span>
+                    <span class="text">Sobre</span>
+                </a>
+            </li>
+            <li class="list">
+                <a href="#">
+                    <span class="icon">
+                        <ion-icon name="mail-outline"></ion-icon>
+                    </span>
+                    <span class="text">Contato</span>
+                </a>
+            </li>
+            <div class="indicator"></div>
+        </ul>
+    </div>
+
+    <script>
+        const list = document.querySelectorAll('.list');
+        function activeLink(){
+            list.forEach(item => {
+                item.classList.remove('active');
+                this.classList.add('active');
+            });
+        }
+        list.forEach(item => {
+            item.addEventListener('click', activeLink);
+        });
+    </script>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="./assets/js/ionicons/ionicons.js"></script>
+</body>
+</html>
