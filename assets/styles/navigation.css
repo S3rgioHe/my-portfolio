@@ -13,6 +13,11 @@
     transition: 0.5s;
 }
 
+.navigation:hover
+{
+    box-shadow: 0 85px 120px #820ad1;
+}
+
 .navigation ul
 {
     display: flex;
@@ -26,6 +31,10 @@
     width: 70px;
     height: 70px;
     z-index: 1;
+}
+.navigation ul li:hover
+{
+    cursor: pointer;
 }
 .navigation ul li a
 {
